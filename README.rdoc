@@ -1,0 +1,27 @@
+= ActionTexter
+
+Allows you to build text messages similar to ActionMailer
+
+== Installation
+
+In your Gemfile add:
+
+  gem 'action_texter'
+
+Install your gems:
+
+  bundle install
+
+That's it!
+
+== Configuration
+
+In your environments/[RAILS_ENV].rb file, add:
+
+  config.action_texter.delivery_method = :file
+  config.action_texter.file_settings = {}
+
+== Contributing
+
+If you'd like to contribute to this project, please fork and send me a pull
+request.
