@@ -6,7 +6,7 @@ Allows you to build text messages similar to ActionMailer
 
 In your Gemfile add:
 
-  gem 'action_texter'
+  gem 'actiontexter'
 
 Install your gems:
 
@@ -20,6 +20,10 @@ In your environments/[RAILS_ENV].rb file, add:
 
   config.action_texter.delivery_method = :file
   config.action_texter.file_settings = {}
+
+== Notes
+
+This code is pretty much the same as ActionMailer. Why reinvent the wheel?
 
 == Contributing
 
