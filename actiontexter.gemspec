@@ -1,6 +1,6 @@
 require File.expand_path('../lib/action_texter/version', __FILE__)
 Gem::Specification.new do |s|
-  s.name = "action_texter"
+  s.name = "actiontexter"
   s.version = ActionTexter::VERSION::STRING
   s.description = 'Allows you to build text messages similar to ActionMailer'
   s.summary = 'Allows you to build text messages similar to ActionMailer'
