@@ -13,7 +13,7 @@ module ActionTexter
     end
 
     def deliver(message)
-      client.sms.messages.create(
+      client.messages.create(
         :from => message.from,
         :to => message.to,
         :body => message.body.strip
